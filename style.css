@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    resize: none;
+
+}
+
+:root {
+    --foot_Outfit: 'Outfit', sans-serif;
+    --foot_Nunitosans:'Nunito Sans', sans-serif;
+    --verde: #16622E;
+    --branco_creme: #FAF6F1;
+    --verdemusgo:#697612;
+    text-align: center;
+}
+
+.alinhamento {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--verde);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 875px;
+
+}
+
+.menu a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--foot_Outfit);
+    font-weight: 800;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid var(--branco_creme);
+    color: var(--branco_pastel);
+}
+
+main {
+    background-color: var(--branco_creme);
+}
+
+h1 {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
+.quem_somos {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.primeira_foto {
+    width: 700px;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 70px;
+}
+
+.sobre {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_titulo {
+    font-family: var(--foot_Outfit);
+    font-size: 60px;
+}
+
+.sobre_texto {
+    font-family: var(--foot_Nunitosans);
+    font-size: 25px;
+}
+
+.btn_esg {
+    background: var(--verde);
+    border-radius: 30px;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn_esg > a {
+    color: white;
+    text-decoration: none;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--foot_Outfit);
+    font-size: 80px;
+    color: var(--branco_creme);
+    background-color: var(--verde);
+}
+
+span {
+    text-transform: uppercase;
+}
+
+.imagens {
+    background-color: var(--verde);
+    padding-bottom: 100px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.o_globo{
+    width: 500px;
+    height: 700px;
+}
+
+.imgs>* {
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.4);
+}
+
+.esg {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.sobre_ESG {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sobre_ESG_titulo {
+    font-family: var(--foot_Outfit);
+    font-size: 30px;
+}
+
+.sobre_ESG_texto {
+    font-family: var(--foot_Nunitosans);
+    font-size: 30px;
+}
+
+.esg img {
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 70px;
+}
+
+.formulario {
+    background-color: var(--verde);
+    padding: 100px 0;
+}
+
+.formulario_titulo {
+    text-align: center;
+    font-family: var(--foot_Outfit);
+    font-size: 60px;
+    color: var(--branco_creme);
+    margin: 15px;
+}
+
+.form {
+    color: white;
+    font-family: var(--foot_Nunitosans);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 25px;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+textarea {
+    padding: 20px;
+}
+
+input {
+    height: 35px;
+    padding: 20px;
+}
+
+.borda {
+    border: 1px solid var(--branco_creme);
+    border-radius: 15px;
+}
+
+.btn_forms {
+    background: white;
+    border: var(--branco_creme);
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    color: var(--verdemusgo);
+    margin: 0 auto;
+}
+
+.mapa {
+    width: 580px;
+}
+
+.contato {
+    padding: 100px 0;
+}
+
+.contato_titulo {
+    font-family: var(--foot_Outfit);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.conteudo_contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.borda_mapa {
+    border: 5px solid var(--verde);
+    width: 700px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contato_info {
+    font-family: var(--foot_Nunitosans);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info>i {
+    margin-right: 20px;
+    color: var(--verde);
+
+}
+
+footer {
+    background-color: var(--verde);
+    color: white;
+    font-family: var(--foot_Nunitosans);
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+@media screen and (max-width:1440px) {
+
+
+    .alinhamento {
+        width: 100%;
+    }
+
+    nav {
+        padding: 0 50px;
+    }
+
+    .quem_somos {
+        padding: 100px 50px;
+    }
+
+    .sobre {
+        max-width: 500px;
+    }
+
+    .esg{
+        padding: 100px 50px;
+    }
+
+    .sobre_ESG{
+        font-size: 26px;
+    }
+
+    .sobre_ESG_texto{
+        font-size: 26px;
+    }
+
+    .o_globo{
+        width: 50%;
+    }
+}
+
+    @media screen and (max-width:1200px) {
+        .primeira_foto{
+            width: 550px;
+        }
+
+        .o_globo{
+            width: 45%;
+        }
+
+        .sobre_ESG{
+            width: 480px;
+        }
+    }
+
+@media screen and (min-width:900px) {
+    #burguer{
+    display: none;
+
+}
+}
+
+@media screen and (max-width:900px) {
+
+    .quem_somos{
+        flex-direction: column;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .sobre{
+        margin-top: 30px;
+    }
+
+    .data{
+        font-size: 85px;
+    }
+    
+    .esg{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    .sobre_ESG{
+        width: 600PX;
+    }
+
+    .conteudo_contato{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    #burguer{
+        display: block;
+        color: #ffffff;
+        font-size: 55px;
+    }
+
+    .primeira_foto{
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    #itens{
+        position: absolute;
+        height: 92vh;
+        width: 50Vw;
+        top: 15vw;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--verde);
+        gap: 50px;
+    }
+
+    .borda_mapa{
+        width: 90%;
+    }
+
+    .menu li{
+        padding: 50px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .quem_somos{
+        flex-direction: column;
+
+    }
+
+    .sobre{
+        margin-top: 30px;
+    }
+
+    .data{
+        font-size: 70px;
+        margin: 0 auto;
+    }
+
+    .imgs{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+.imgs>*{
+width: 50%;
+}
+
+    .o_globo{
+        width: 80%;
+    }
+
+
+    
+}
+
+@media screen and (max-width:640px){
+.primeira_foto{
+    width: 500px;
+
+}
+}
+
+@media screen and (max-width:600px){
+    .primeira_foto{
+        width: 80%;
+    }
+    .o_globo{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:580px){
+
+#burguer{
+    display: block;
+    color: #ffffff;
+    font-size: 55px;
+}
+
+#itens{
+    position: absolute;
+    height: 92vh;
+    width: 50Vw;
+    top: 20vw;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--verde);
+    gap: 50px;
+}
+
+.menu li{
+    padding: 50px;
+}
+
+.menu{
+    display: none;
+} 
+
+.primeira_foto {
+    width: 475px;
+}
+
+.borda_mapa {
+    width: 475px;
+}   
+.sobre_ESG{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_ESG_texto{
+    font-size: 72%;
+    text-align: center;
+    padding: 0 115px;
+}
+
+.o_globo{
+    width: 90%;
+}
+
+}
+
+@media screen and (max-width:550px){
+    
+    .sobre_texto{
+      font-size: 25px;
+      width: 70%;
+      text-align: center;
+
+    }   .sobre_ESG{
+        font-size: 20%;
+        text-align: center;
+    }
+
+    .sobre_ESG_texto{
+        font-size: 20%;
+        text-align: center;
+    }
+}

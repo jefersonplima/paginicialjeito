@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&TO | Casa de Moda com roupas no Estilo Nautral Esportivo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/& (1).png">
+    <meta name="description" content="Uma casa de moda comprometida com o movimento ESG, 
+    focada em roupas no estilo Natural Esportivo para Quem busca por roupas confortáveis e despojadas.">
+
+    <script src="https://kit.fontawesome.com/6755cde7a7.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script>
+        function Mensagem() {
+            alert("Voce será redirecionado para o seu servidor de email," +
+                "Caso nao esteja logado no seu email, efetue o login e tente novamente!")
+        }
+
+        function click_menu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+
+            else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function tamanho_site(){
+            if(window.innerWidth> 768 ){
+                itens.style.display = 'flex'
+            }
+            else{
+                itens.style.display = 'none'
+            }
+        }
+
+    </script>
+
+
+</head>
+
+<body onresize="tamanho_site()">
+    <header>
+        <nav class="alinhamento">
+
+
+            <a class="link_logo" href="#">
+                <img src="img/Logo G&TO.png" alt="O logotipo da jeito 
+                é composto por dua letras G e T, o G por cima T 
+                formando uma figura que lembra um algodão.">
+            </a>
+
+            <ul class="menu" id="itens">
+                <li><a href="#OUTONO-INVERNO">OUTONO-INVERNO</a></li>
+                <li><a href="#CAMISETAS & CAMISAS">CAMISETAS & CAMISAS</a></li>
+                <li><a href="#CALÇAS & BERMUDAS & SHORTS">CALÇAS & BERMUDAS & SHORTS</a></li>
+                <li><a href="#Contato">CONTATO</a></li>
+            </ul>
+
+            <span id="burguer" class="material-symbols-outlined" onclick="click_menu()">menu</span>
+
+        </nav>
+    </header>
+    <main>
+        <section class="quem_somos alinhamento" id="quem_somos">
+            <h1>Pagina principal da jeito</h1>
+            <img class="primeira_foto" src="./img/Quem somos.jpg" alt="A imagem mostra Um casal fazendo 
+            pose para foto, ambos usam oculos de sol e jaqueta jeans. ">
+            <div class="sobre">
+                <p class="sobre_titulo">Olá somos a G&TO!</p>
+                <p class="sobre_texto">Uma casa de moda comprometida com o movimento ESG,
+                    focada em roupas no estilo Natural Esportivo para Quem
+                    busca por roupas confortáveis e despojadas.</p>
+                <button class="btn_esg">
+                    <a href="#conheca_esg">Conheça a ESG</a>
+                </button>
+
+                </p>
+            </div>
+        </section>
+
+        <section class="data">
+            <p>lançamento da <span>G&To</span></p>
+            <time datetime="2023-06-06">06/06/2023</time>
+        </section>
+
+        <section class="imagens">
+            <div class="imgs alinhamento">
+                <img src="./img/1.jpg" alt="A imagem mostra um homem sentado em uma varanda,
+                em um chale ele usa óculos escuros, e uma jaqueta marrom uma roupa branca, calça jeans preto
+                 e bota preta">
+                <img src="./img/3.jpg" alt="A imagem mostra duas mulheres asiaticas fazendo pose pra foto. com cabelo roxo 
+                preso olhando de lado com camisa preta com uma jaqueta caida, outra com turbante 
+                sobre cabeça com uma blezer branco em um lado com a outra modelo 
+                colocando mão sobre seu ombro. Ela está com look todo preto emcarando de frente para foto.">
+                <img src="./img/2.jpg" alt="A imagem mostra uma mulher com cabelo ruivo usando um macacao jeans claro, óculos de sol
+                segurando um pedaço de comida na mão. Sentada sobre jipe, fazendo pose pra foto. 
+                preso  
+                escrita Forever or Never em texto branco, por cima , a modelo utiliza uma jaqueta escura.">
+            </div>
+
+        </section>
+
+
+
+        <section class="esg alinhamento" id="conheca_esg">
+            <div class="sobre_ESG">
+                <p class="sobre_ESG_titulo">O que e ESG?</p>
+                <p class="sobre_ESG_texto">
+                    ESG é um conjunto de ideias e práticas que avaliam como as
+                    empresas cuidam do meio ambiente, das pessoas que trabalham
+                    com elas e de como são administradas. Por exemplo, uma empresa que usa
+                    materias recicláveis e se preocupa em ter um ambiente de trabalho
+                    saudável para os funcionários tem uma boa nota em ESG. Isso é
+                    importante porque muitas pessoas estão preocupadas em apoiar
+                    empresas que cuidam do mundo e das pessoas, não só em ganhar dinheiro.
+                </p>
+            </div>
+            <img class="o_globo" src="./img/esg.jpg" alt="A imagem mostra foto de um globo com folhas em volta.">
+
+        </section>
+
+        <section class="formulario">
+            <p class="formulario_titulo" cou com>Ficou alguma dúvida?</p>
+            <form method="post" action="mailto:geto@gamil.com" enctype="text/plain">
+                <div>
+                    <label for="name">Nome:</label>
+                    <input class="borda" type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input class="borda" type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="massage">Mensagem:</label>
+                    <textarea class="borda" type="massage" id="massage" cols="40" rows="6"></textarea>
+
+                    <button class="btn_forms" type="submit" onclick="Mensagem()">Enviar</button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+        <section class="contato alinhamento" id="Contato">
+            <p class="contato_titulo">Contato</p>
+            <div class="conteudo_contato">
+                <div class="borda_mapa">
+                    <iframe class="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14622.795599027026!2d-46.5707243!3d-23.6151292!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5d3ee47e0155%3A0x33109d1a7d4fa277!2sEscola%20Senai%20Paulo%20Skaf!5e0!3m2!1sen!2sbr!4v1683121554531!5m2!1sen!2sbr"
+                        class="Mapa" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="Contato_info">
+
+                    <div class="info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(99)9999-9999</p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>contato@geto.com</p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Rua Niterói, 180 - SCS </p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>@geto</p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-brands fa-tiktok"></i>
+                        <p>@geto</p>
+                    </div>
+                    <div class="info">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>@geto</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>Todo os direito reservados &#169; G&TO </footer>
+    <div class="nome"></div>
+    <div class="nome"></div>
+    <div class="nome"></div>
+</body>
+
+</html>
